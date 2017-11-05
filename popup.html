@@ -1,0 +1,97 @@
+<html>
+<head>
+<style>
+    body {
+        background-image: url("1.jpg");
+}
+    </style>
+
+<style>
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+	
+    <style> 
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+</style>
+    
+</head>
+<body>
+    <h1 id="title"><span style="color:blue;font-weight:bold">Magic</span> <span style="color:red;font-weight:bold">Link</span><span style="color:black;font-weight:bold"> Opener</span></h1>
+    <p>Enter Single or Multiple Links to Open in New Tab Magically & To Store Below!</p>
+    
+    <p>Developer: Team CyberCalliphate</p>
+  
+<div>
+    <div class="outer-wrapper">
+    <div class="new-note">
+
+    <input type="text" id="subdomain" placeholder="Type your subdomain, i.e., 'www' don't use http://">
+    <textarea hidden>.</textarea>
+      <button id="theButton" class="button add">Submit</button>
+        <button class="clear button" style="float: right;">Clear</button>
+        
+<a href="new.txt">See What's New in New Version 2.0 Update will Come Soon</a>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+    <div class="note-container">
+ 
+    </div>
+  </div>
+
+  <script src="quicknote.js"></script>
+
+</div>
+     
+    
+
+    <script src="file.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
